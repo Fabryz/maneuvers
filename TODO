@@ -1,0 +1,12 @@
+- store all connected clients somewhere, with who's connected to who
+- check if req.params.remoteid exists
+- fix crashes when remote disconnect and commander tries to send message
+- send notification to connected commanders when remote disconnects
+- show how many Commander clients are connected (and who?)
+- send feedback to the Commander if the command has been received by the Remote
+
+- send device orientation values and show it on controller
+- "poke" button on remote to signal Controller that he needs further instructions
+- investigate PERMISSION_DENIED error
+- on remote.js don't send msg if there isn't an attached commander
+- limit bandwidth usage by checking last coordinates with current ones

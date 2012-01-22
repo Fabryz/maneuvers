@@ -1,0 +1,26 @@
+!!! 5
+html
+	head
+		meta(http-equiv='Content-type', content='text/html; charset=UTF-8')
+		title="Commander - Maneuvers"
+		
+		link(type='text/css', rel='stylesheet', href='../css/style.css', media='screen')	
+		
+		script(type='text/javascript', src='../js/jquery-1.7.1.min.js')
+		script(type='text/javascript', src='../socket.io/socket.io.js')
+		script(type='text/javascript', src='../js/Socket.js')
+		script(type='text/javascript', src='../js/commander.js')
+		script(type='text/javascript', src='http://maps.google.com/maps/api/js?sensor=false')
+	body
+		#wrapper
+			h1 Commander
+			.block You are:
+				#nick Unknown
+			.block Connected to:
+				#controlled_id #{id}
+			.block Connection status:
+				#status
+			.block Send something to the remote client:
+				input(id='message',name='message',size='50')
+			#geo_status Connecting...			
+			#geo_map
