@@ -35,6 +35,8 @@ Installation
 5. Point Player B's browser to ``YOUR_SERVER_IP:8080/rc/numeric_id``, choose a location and start giving out orders
 6. Just... don't make him go too far
 
+You can see a working online app over here: [maneuvers.nodejitsu.com](http://maneuvers.nodejitsu.com/)
+
 Contributors
 ------------
 
